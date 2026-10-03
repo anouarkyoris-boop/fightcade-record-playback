@@ -12,7 +12,7 @@ Training mode only. Made for Fightcade's FBNeo.
 
 ## How to use
 
-1. Press **Record**. Your controls now move the **P2** character (and P1 guards).
+1. Press **Record**. Your controls now move the **P2** character (and P1 guards by default).
 2. Do the move you want to practice against.
 3. Press **Record** again to stop.
 4. Put the characters back in position, then press **Play**. P2 repeats your move and you control P1.
@@ -36,6 +36,7 @@ For controller combos, **hold the first button, then press the other one.** Coin
 |--------|----------|------------|
 | Guard high / low | **G** | Coin + Down |
 | Guard direction (flip) | **H** | Coin + Up |
+| Guard on / off | **E** | Start + Up |
 | Next recording slot | **N** | Coin + Right |
 | Previous recording slot | **B** | Coin + Left |
 | Savestate reset on / off | **U** | Start + A |
@@ -45,7 +46,7 @@ For controller combos, **hold the first button, then press the other one.** Coin
 
 ## Features
 
-- **Guard while recording:** P1 holds back automatically so it blocks P2's attacks. Use **G** to switch between standing and crouching guard. If P1 walks toward P2 instead, press **H**.
+- **Guard while recording:** P1 holds back automatically so it blocks P2's attacks. Use **G** to switch between standing and crouching guard, and **E** to turn the automatic guard off (P1 then stands still while you record). If P1 walks toward P2 instead, press **H**.
 - **5 recording slots:** choose a slot with **N / B** (while idle), then record into it. The slot list (with the frame count of each slot) is shown on screen.
 - **Automatic saving:** recordings are saved to `record_play_<game>.txt` in the emulator's folder when you stop recording, and loaded again when you run the script.
 - **Playback delay:** P2 waits a short time before starting, so you can't predict the timing. The delay repeats on every loop. Press **V** to cycle: off, 30 frames, 60 frames, random (0 to 90 frames).
